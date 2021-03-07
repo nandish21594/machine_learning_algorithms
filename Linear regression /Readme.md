@@ -4,12 +4,7 @@ A program that implements a (batch) linear regression using the gradient descent
 
 Using the following gradient calculation:
 
-![image-20210307114054449](/Users/nandish21/Library/Application Support/typora-user-images/image-20210307114054449.png)
-
-where
-
- x⃗i is one data point (with N being the size of the data set), η the learning rate, yi is the target output and f (x⃗i ) is the linear function defined as f (⃗x) = w⃗ T ⃗x or equivalently f(⃗x) = 􏰀i wi · xi. Whereas w⃗ and ⃗x include the bias/intercept, i.e. w0 and x0 = 1. All weights should be initialized as 0.
-
+![Screen Shot 2021-03-07 at 12 01 21 PM](https://user-images.githubusercontent.com/20551968/110237552-f2034d00-7f3c-11eb-907b-84be731f70b4.JPG)
 
 
 **Dataset:**
