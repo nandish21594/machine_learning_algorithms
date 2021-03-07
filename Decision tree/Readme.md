@@ -2,7 +2,8 @@
 
 A program that implements a decision tree using the ID3 algorithm. Use the following entropy calculation:
 
-![image-20210307190139095](/Users/nandish21/Library/Application Support/typora-user-images/image-20210307190139095.png)
+![Screen Shot 2021-03-07 at 7 12 59 PM](https://user-images.githubusercontent.com/20551968/110249970-2d237180-7f79-11eb-999f-786c02af7255.JPG)
+
 
 where pi is the proportion of class i (with C being all classes in the data set). Use Information Gain as your decision measure and treat all features as discrete multinomial distributions.
 
