@@ -1,4 +1,4 @@
-#### Problem Statement:
+### Problem Statement:
 
 A program that implements a decision tree using the ID3 algorithm. Use the following entropy calculation:
 
@@ -7,17 +7,17 @@ A program that implements a decision tree using the ID3 algorithm. Use the follo
 
 where pi is the proportion of class i (with C being all classes in the data set). Use Information Gain as your decision measure and treat all features as discrete multinomial distributions.
 
-#### Dataset:
+### Dataset:
 
 car and nursery as csv files. 
 
-#### Steps:
+### Steps:
 
 - Read both data sets and treat the last value of each line as the class. 
 - Implement the ID3 algorithm and return the final tree without stopping early (both data sets can be learned perfectly, i.e. all leaves have an entropy of 0). 
 - The output of the algorithm should look like the example XML solution given for the car data set. With that, you can check the correctness of your solution. 
 
-#### How to run:
+### How to run:
 
 Parameters:
 
