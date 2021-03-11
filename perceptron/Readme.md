@@ -1,15 +1,15 @@
-#### Problem Statement:
+### Problem Statement:
 
 A program that implements a single perceptron using the below delta rule. Use the following activation function:
 
 ![image](https://user-images.githubusercontent.com/20551968/110837223-42620e00-82a1-11eb-8844-0a5a5d8364df.png)
 
 
-#### Dataset:
+### Dataset:
 
 Example and Gauss2 as tsv (tabular separated values)
 
-#### Steps:
+### Steps:
 
 - Read both data sets and treat the first value of each line as the class (A or B). 
 - In order to get the same results, class A is to be treated as the positive class, hence y = 1, and class B as the negative one (y = 0). 
@@ -31,7 +31,7 @@ Example and Gauss2 as tsv (tabular separated values)
 
   
 
-#### How to run:
+### How to run:
 
 Parameters:
 
@@ -44,3 +44,6 @@ Parameters:
 
 
 The figures below shows the data for the Example set and its single perceptron solution after 100 iterations with a constant learning rate.
+
+![image](https://user-images.githubusercontent.com/20551968/110838401-b2bd5f00-82a2-11eb-8b7d-6e7472635556.png)
+
