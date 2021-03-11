@@ -2,10 +2,7 @@
 
 A program that implements a single perceptron using the below delta rule. Use the following activation function:
 
-
-
-where w⃗ is the vector of weights including the bias (w0). Treat all attributes and weights as double-precision values.
-
+![image](https://user-images.githubusercontent.com/20551968/110837223-42620e00-82a1-11eb-8844-0a5a5d8364df.png)
 
 
 #### Dataset:
@@ -19,11 +16,11 @@ Example and Gauss2 as tsv (tabular separated values)
 - All weights are to be initialized with 0. 
 - Implement the perceptron learning rule in batch mode with a constant (ηt = η0) and an annealing (ηt = η0 ) learning rate (in both cases η0 = 1), i.e:
 
+![image](https://user-images.githubusercontent.com/20551968/110837420-7c331480-82a1-11eb-8e66-5cdfadd130c6.png)
 
 
-​		where Y(⃗x,w⃗) is the set of samples which are misclassified.
+- The number of misclassified points is the error rate ![image](https://user-images.githubusercontent.com/20551968/110837513-9bca3d00-82a1-11eb-83be-967063c97139.png)
 
-- The number of misclassified points is the error rate (i.e. |Y(⃗x,w⃗)|).
 
 - The output of the algorithm is a single tsv file, which contains exactly two rows after 100 iterations (per variant):
 
@@ -34,7 +31,7 @@ Example and Gauss2 as tsv (tabular separated values)
 
   
 
-  How to run:
+#### How to run:
 
 Parameters:
 
@@ -45,6 +42,5 @@ Parameters:
          python3 perceptron.py --data Example.tsv --output Example_Errors.tsv
 ```
 
-#### How to run:
 
 The figures below shows the data for the Example set and its single perceptron solution after 100 iterations with a constant learning rate.
