@@ -19,7 +19,8 @@ Example and Gauss2 as tsv (tabular separated values)
 ![image](https://user-images.githubusercontent.com/20551968/110837420-7c331480-82a1-11eb-8e66-5cdfadd130c6.png)
 
 
-- The number of misclassified points is the error rate ![image](https://user-images.githubusercontent.com/20551968/110837513-9bca3d00-82a1-11eb-83be-967063c97139.png)
+- The number of misclassified points is the error rate
+ ![image](https://user-images.githubusercontent.com/20551968/110837513-9bca3d00-82a1-11eb-83be-967063c97139.png)
 
 
 - The output of the algorithm is a single tsv file, which contains exactly two rows after 100 iterations (per variant):
@@ -27,7 +28,6 @@ Example and Gauss2 as tsv (tabular separated values)
   1. The first row contains the tabular separated values for the error of each iteration (starting from iteration 0) with the constant learning rate.
   2. The second row follows the same format, but with the annealing learning rate.
 
-- 
 
   
 
