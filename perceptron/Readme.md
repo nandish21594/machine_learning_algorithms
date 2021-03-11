@@ -14,7 +14,7 @@ Example and Gauss2 as tsv (tabular separated values)
 - Read both data sets and treat the first value of each line as the class (A or B). 
 - In order to get the same results, class A is to be treated as the positive class, hence y = 1, and class B as the negative one (y = 0). 
 - All weights are to be initialized with 0. 
-- Implement the perceptron learning rule in batch mode with a constant (ηt = η0) and an annealing (ηt = η0 ) learning rate (in both cases η0 = 1), i.e:
+- Implement the perceptron learning rule in batch mode with a constant (ηt = η0) and an annealing (ηt = η0/t ) learning rate (in both cases η0 = 1), i.e:
 
 ![image](https://user-images.githubusercontent.com/20551968/110837420-7c331480-82a1-11eb-8e66-5cdfadd130c6.png)
 
